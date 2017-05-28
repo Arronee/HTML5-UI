@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>第一个推出页</title>
+
+    <!--引入jQuery-->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!--引入bootstrap-->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        header {
+            height: 60px;
+            line-height: 60px;
+            width: 100%;
+            color: #fff;
+            font-family: "黑体";
+            font-weight: 200;
+            font-size: 20px;
+
+            /*顶部导航栏颜色*/
+            background-color: #0eb7ee;
+        }
+
+
+    </style>
+</head>
+<body>
+<header class="text-center" id="top">
+
+    <button type="button" class="btn btn-info pull-left" id="next">返回</button>
+
+</header>
+
+<script>
+    $('#next').click(function () {
+        window.history.back();
+    });
+</script>
+</body>
+</html>

@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <title>第一个页面</title>
 
+    <!--引入jQuery-->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!--引入bootstrap-->
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 <body>
+<br>
+<br>
+<br>
+<br>
+<button type="button" class="btn btn-info " id="next">点击跳转下一页</button>
 
+<script>
+    $('#next').click(function () {
+        self.location = 'first-push.html';
+    });
+</script>
 </body>
 </html>
